@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:#fff175;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+ header{
+    position: absolute;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 100;
+    top: -80px;
+   
+      } 
+ .logo{
+    width: 200px;
+    color:#359381;
+    margin-right: 140px;
+    
+  }
+ 
+ .navigation a {
+  
+    text-decoration: none;
+    float: left;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin:   10px;
+    font-weight: 600;
+ }
+
+
+ .navigation a:hover {
+    background-color: #359381;
+    border: 2px  #f9f9f9;
+      color: #fff175;}
+
+  
+         
+      
+
+.image1{
+   position:relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ }
+ .image1 img{
+   position: absolute   ;
+  
+ }
+
+
+
+#tin2{
+   position:absolute;
+   width: 7em;
+   top: 40%;
+   right: 390px;
+}
+#tin3{
+   position: absolute;
+   width: 7em;
+   top: 40%;
+   right:490px ;
+ 
+}
+#tin4{
+   position: absolute;
+   width: 7em;
+   top: 40%;
+   right: 590px;
+   
+}
+#tin5{
+   position: absolute;
+   width: 7em;
+   top: 40%;
+   right: 690px;
+}
+#tin1{
+   position:absolute;
+   width: 7em;
+   top: 40%;
+   right: 790px;
+}
+#tin6{
+   position: absolute;
+   width: 7em;
+   top: 40%;
+   right: 890px;}
+
+.sec{
+   position:relative ;
+   background: #003329;
+   padding: 100px;
+   min-height: 100vh;
+ 
+}
+.sec h2{
+   font-size: 3em;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.sec p{
+   font-size: 1em;
+   color: #fff;
+   font-weight: 300;
+
+}
+.sec h2, h3{
+   background: linear-gradient(to right,#e6d32c,#fff 35%,#177766);
+   background-size: 200% auto;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: gradient 3s linear infinite;
+}
+@keyframes gradient{
+   0%{background-position: 0% 75%;}
+   50%{background-position: 100% 50%;}
+   100%{background-position: 0% 70%;}
+}
+.sec h3{
+   position: relative;
+   bottom: 10px;
+}
+.shop {
+font-weight: 700;
+   position: relative;
+   bottom: 160px;
+   left: 27px;
+}
+.para{
+   position: relative;
+   bottom: 150px;
+   width: 120vw;
+   right: 20%;
+   background-size: cover;
+   border-radius: 50px;
+   background-color: white;
+   background-image: url("");
+
+   
+}
+.para h4{
+   font-style: italic;
+   font-size: x-large;
+   text-align: center;
+   padding: 12px;
+   margin: 5%;
+   color:rgb(2, 1, 1);   
+   border-radius: 5px;
+   background: linear-gradient(to right,#e6d32c,#ddf7a1 35%,black);
+   background-size: 200% auto;
+
+   animation: gradient 3s linear infinite;
+}
+@keyframes gradient{
+   0%{background-position: 0% 75%;}
+   50%{background-position: 100% 50%;}
+   100%{background-position: 0% 70%;}
+}
+
+.para p {
+   font-size: larger;
+   font-weight: 100px;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+
+.para span{
+   font-size: large;
+   font-weight: 500;
+   font-style: italic;
+   color: green;
+}
+#para1 {
+   margin: 30px;
+   color: black;
+}
+#para2{
+   margin: 30px;
+   color: black;
+}
+#para3{
+   margin: 30px;
+   color: black;
+}
+
+.sec img{
+   position: relative;
+   width: 4em;
+   bottom: 100px;
+   left: 220px;
+ 
+}
+.variety {
+   font-size: x-large;
+   text-align: center;
+   font-weight: 600;
+   color: purple;
+   font-family: 'Times New Roman', Times, serif;
+  
+ }
+ul{
+   color:green;
+   padding-left: 45%;
+   margin: 20px;
+}
+.frnd1{
+   font-style: italic;
+   font-size: large;
+   text-align: center;
+   color: purple;
+}
+.frnd2{
+   font-size: large;
+   text-align: center;
+   color: green;
+   margin-top: 10px;
+}
+.frnd3{
+   font-size: large;
+   text-align: center;
+   color: green;
+}
+.time { margin-top: 20px;
+   font-size: medium;
+   text-align: center;
+   color: black;
+
+}
+
+hr{
+   margin-top:25px;
+ border: 1px double #177766;
+}
+.onewellimg{
+   position: relative;
+   display: flex;
+   gap: 200px;
+   top: 200px;
+
+}
+.onewellimg img{
+   width: 260px;
+   height: 210px;
+}
+
+.onewelltext{
+   color: white;
+   display: flex;
+   position: relative;
+   top: 120px;
+   gap: 400px;
+   font-size: x-large;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text1{
+   position: relative;
+   left: 210px;
+   top: 20px;
+   
+}
+.text2{
+   position: relative;
+   left: 60px;
+   top: 20px;
+   
+}
+.text3{
+   position: relative;
+   right: 60px;
+   top: 20px;
+   
+}
+
+.banner img{
+   width: 100vw;
+   height: 100vh;
+  position: relative;
+}
+.bannertext{
+   position: relative;
+   bottom: 500px;
+   left: 700px;
+}
+.bannertext h1{
+   background: linear-gradient(to right,#f0d909,#97d4ec 35%,#d93edf);
+   background-size: 200% auto;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: gradient 3s linear infinite;
+}
+@keyframes gradient{
+   0%{background-position: 0% 75%;}
+   50%{background-position: 100% 50%;}
+   100%{background-position: 0% 70%;}
+}
+.bannertext pre{
+   color: white;
+ 
+}
+.ourproduct{
+   position: relative;
+   bottom: 130px;
+   background-color:#003329;
+   width: 100vw;
+   height: 100vh;
+}
+.ourproduct h2{
+   padding: 15px;
+   font-size: xx-large;
+   display: inline;
+   color:#003329;
+   background-color:white;
+   text-align: center;
+   position: relative;
+   left: 480px;
+   font-family: 'Courier New', Courier, monospace;
+}
+.ourproduct hr{
+   border: 3px solid white;
+   position: relative;
+   bottom: 16px;
+
+}
+.ourproduct pre{
+   text-align: center;
+   color: white;
+}
+.card1 {
+   background-color: #fff;
+   box-shadow: 0 4px 8px rgb(2, 32, 8);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   position: relative;
+   top: 40px;
+   right: 450px;
+ }
+ 
+ .price1 {
+   color: rgb(59, 52, 52);
+   font-size: 22px;
+ }
+ .card2 {
+   background-color: #fff;
+   box-shadow: 0 4px 8px rgb(2, 32, 8);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   position: relative;
+   bottom: 460px;
+   right: px;
+ }
+ 
+ .price2 {
+   color: rgb(59, 52, 52);
+   font-size: 22px;
+ }
+ .card3 {
+   background-color: #fff;
+   box-shadow: 0 4px 8px rgb(2, 32, 8);
+   max-width: 300px;
+   margin: auto;
+   text-align: center;
+   font-family: arial;
+   position: relative;
+   bottom: 955px;
+   left: 450px;
+ }
+ 
+ .price3 {
+   color: rgb(73, 64, 69);
+   font-size: 22px;}
+
+ .ourtin{
+   background-color: #003329;
+   height: 900px;
+ } 
+ .Contacttext p {
+   font-style: italic;
+   font-size: 30px;
+   font-weight: 500;
+   color: white;
+  
+   padding: 50px;
+   background-color:#003329;
+   text-align: center;
+ 
+ }
+ .Contacttext{
+   background-color: white;
+   bottom:  890px;
+   position: relative;
+ }
+ input[type=text], select, textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #003329;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+ }
+ 
+ input[type=submit] {
+   background-color: #04AA6D;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ input[type=submit]:hover {
+   background-color: #45a049;
+ }
+ 
+ .container {
+   border-radius: 5px;
+   background-color:white;
+   padding: 10px;
+ }
+ 
+ .column {
+   float: left;
+   width: 50%;
+   margin-top: 6px;
+   padding: 20px;
+ }
+ 
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ .contact1{
+
+   position: relative;
+   bottom: 850px;
+   background-color: white;
+   height: 800px;
+
+ }
+ footer {
+   background-color: #333;
+   color: #fff;
+   padding: 30px0;
+   height: 100vh;
+   position: relative;
+   top: 00px;
+   text-align: center;
+
+ }
+ 
+ footer h3 {
+   margin-bottom: 10px;
+ }
+ 
+ footer ul {
+   list-style: none;
+   padding: 0;
+ }
+ 
+ footer li {
+   margin-bottom: 5px;
+ }
+ 
+ footer a {
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+ @media (max-width: 767px) {
+   footer .row {
+     flex-direction: column;
+   }
+ 
+   footer .col-md-33 {
+     margin-bottom: 20px;
+   }
+};
