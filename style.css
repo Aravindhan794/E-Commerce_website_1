@@ -408,7 +408,7 @@ hr{
  }
  .Contacttext{
    background-color: white;
-   bottom:  990px;
+   bottom:  890px;
    position: relative;
  }
  input[type=text], select, textarea {
@@ -453,7 +453,7 @@ hr{
  .contact1{
 
    position: relative;
-   bottom: 850px;
+   bottom: 900px;
    background-color: white;
    height: 800px;
 
