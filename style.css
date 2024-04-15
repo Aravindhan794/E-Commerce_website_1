@@ -121,18 +121,8 @@ body{
    font-weight: 300;
 
 }
-.sec h2, h3{
-   background: linear-gradient(to right,#e6d32c,#fff 35%,#177766);
-   background-size: 200% auto;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   animation: gradient 3s linear infinite;
-}
-@keyframes gradient{
-   0%{background-position: 0% 75%;}
-   50%{background-position: 100% 50%;}
-   100%{background-position: 0% 70%;}
-}
+
+
 .sec h3{
    position: relative;
    bottom: 10px;
@@ -163,16 +153,8 @@ font-weight: 700;
    margin: 5%;
    color:rgb(2, 1, 1);   
    border-radius: 5px;
-   background: linear-gradient(to right,#e6d32c,#ddf7a1 35%,black);
-   background-size: 200% auto;
+}
 
-   animation: gradient 3s linear infinite;
-}
-@keyframes gradient{
-   0%{background-position: 0% 75%;}
-   50%{background-position: 100% 50%;}
-   100%{background-position: 0% 70%;}
-}
 
 .para p {
    font-size: larger;
@@ -299,18 +281,7 @@ hr{
    bottom: 500px;
    left: 700px;
 }
-.bannertext h1{
-   background: linear-gradient(to right,#f0d909,#97d4ec 35%,#d93edf);
-   background-size: 200% auto;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   animation: gradient 3s linear infinite;
-}
-@keyframes gradient{
-   0%{background-position: 0% 75%;}
-   50%{background-position: 100% 50%;}
-   100%{background-position: 0% 70%;}
-}
+
 .bannertext pre{
    color: white;
  
